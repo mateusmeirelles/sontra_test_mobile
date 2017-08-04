@@ -1,7 +1,7 @@
 # language: pt
 # encode: UTF-8
 
-Funcionalidade: Editar número de celular
+Funcionalidade: Edição de celular
     Eu como usuário Caminhoneiro
     Quero editar o número do meu celular
     Para manter meus dados atualizados
