@@ -1,15 +1,13 @@
 # language: pt
 # encode: UTF-8
 
-Funcionalidade: Edição de celular
+Funcionalidade: Solicitação para cadastro de caminhão
     Eu como usuário Caminhoneiro
-    Quero editar o número do meu celular
-    Para manter meus dados atualizados
+    Quero receber uma solicitação
+    Para cadastrar meu caminhão
 
-    Contexto: Relizar login no APP
+    Cenario: Receber solicitação
     Dado que eu esteja logado no APP
-
-    Cenario: Editar número de celular
-    Quando eu editar o número de celular
-    Entao validarei o token recebido
-    E atualizarei meu número de celular
+    E não possua caminhão cadastrado na minha conta
+    Quando acessar o app
+    Entao receberei uma solicitação para cadastrar os dados do meu caminhão
